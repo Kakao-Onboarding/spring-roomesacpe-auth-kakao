@@ -1,6 +1,6 @@
 package nextstep.domain.member;
 
-import nextstep.support.DuplicateEntityException;
+import nextstep.interfaces.DuplicateEntityException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
